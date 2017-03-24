@@ -19,7 +19,7 @@ Assuming some basic knowledge of the services involved.
 
 - clone this repo
 - on your terminal, install the requests module on the same folder with ```pip install requests -t .```
-- edit s3_lambda_es.py changing the following variables
+- edit s3-lambda-es.py changing the following variables
   - host = the full hostname for your AWS ES endpoint
   - region = region were your ES cluster is located
 - Curl the elastic_search_cloudtrail_template.json file contents on your ES cluster
