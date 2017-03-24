@@ -28,6 +28,7 @@ Assuming some basic knowledge of the services involved.
   - zip -r name-the-contents.zip . 
   - handler for the function is s3_lambda_es.lambda_handler
   - lambda role must allow access to the cloudtrail s3 bucket, and to create logs on cloudwatch
+  - check lambda-role
 - Go to properties of S3 Bucket that is holding your cloudtrail logs,
   - click on Events
   - Add Notification,
